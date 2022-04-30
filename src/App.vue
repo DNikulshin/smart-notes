@@ -6,7 +6,7 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
-    <div class="install-app" v-if="canInstall">
+    <div class="install-app">
       <button type="button" @click="onInstall">установить как приложение</button>
     </div>
   </div>
